@@ -15,4 +15,4 @@ autoSelect:The selected item will set to this field.
 
 autoKey:The option's field that use to display on the input.
 
-autoChange:The changeInputVal Fun will trigger when input value change,and it can use to fill options by input key.
+autoChange:The changeInputVal Fun will trigger when input value change,and it can use to filter options by input key.
