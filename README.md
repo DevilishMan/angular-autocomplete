@@ -5,19 +5,21 @@ npm install angularjs-auto-complete.
 
 bower install angularjs-auto-complete.
 
-DEMO:
+<h2>DEMO:</h2>
 
 &lt;ng-auto-complete auto-options="options" auto-select="selectItem" auto-key="text" auto-change="changeInputVal(val)"&gt; &lt;/ng-auto-complete&gt;
 
-How to use:
+<h2>How to use:</h2>
 
-1、Add module to app:
+<h3>1、Add module to app:</h3>
 
 <div style='background:#333;color:#fff;line-height:32px;'>
+
   angular.module('app', ['ng.autocomplete']);
+
 </div>
 
-2、angular controller:
+<h3>2、angular controller:</h3>
 
 <div style=\"border:1px solid #333;\">
 
@@ -49,9 +51,10 @@ How to use:
 
     &nbsp;&nbsp;}<br/>
   ]);
+
 </div>
 
-API：
+<h2>API：</h2>
 
 autoOptions:The option's array.
 
