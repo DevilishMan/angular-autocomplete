@@ -7,7 +7,7 @@ bower install angularjs-auto-complete.
 
 DEMO:
 
-&lt;ng-auto-complete auto-options="options" auto-select="selectItem" auto-key="text" auto-change="changeInputVal(val)"&lg;&lt;/ng-auto-complete&lg;
+&lt;ng-auto-complete auto-options="options" auto-select="selectItem" auto-key="text" auto-change="changeInputVal(val)"&gt; &lt;/ng-auto-complete&gt;
 
 autoOptions:The option's array.
 
