@@ -1,9 +1,8 @@
 {
-  "name": "angular-autocomplete",
+  "name": "angularjs-auto-complete",
   "version":"0.1.0",
   "author":{
-    "name":"huangzhibiao",
-    "email":"zhibiao8810@gmail.com,459295360@qq.com"
+    "name":"hzb"
   },
   "main": ["./dist/angular-autocomplete.js","./dist/angular-autocomplete.css"],
   "description": "Native AngularJS (Angular) directives for auto complete.",
@@ -11,7 +10,8 @@
   "keywords": [
     "angular",
     "auto complete",
-    "angular-autocomplete"
+    "angular autocomplete",
+    "auto-complete"
   ],
   "dependencies": {
     "angular": "^1.3.0",
