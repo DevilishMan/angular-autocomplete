@@ -4,7 +4,7 @@
   "author":{
     "name":"hzb"
   },
-  "main": ["./dist/angular-autocomplete.js","./dist/angular-autocomplete.css"],
+  "main": ["./angular-autocomplete.js","./angular-autocomplete.css"],
   "description": "Native AngularJS (Angular) directives for auto complete.",
   "license": "MIT",
   "keywords": [
