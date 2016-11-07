@@ -21,38 +21,40 @@ How to use:
 
 1、Add module to app:
 
-<div style="background:#333;color:#fff;line-height:32px;">
+<div style='background:#333;color:#fff;line-height:32px;'>
   angular.module('app', ['ng.autocomplete']);
 </div>
 
 angular controller:
-<div style="border:1px solid #333;">
-  app.controller('MainCtrl', ['$scope',
 
-    function ($scope) {
+<div style=\"border:1px solid #333;\">
 
-      $scope.options = [{text:'text1',id:1,val:1},{text:'text2',id:2,val:2}];
+  app.controller('MainCtrl', ['$scope',<br/>
 
-      $scope.selectItem = $scope.options[0]
+    function ($scope) {<br/>
 
-      $scope.changeInputVal = function(val){
+      $scope.options = [{text:'text1',id:1,val:1},{text:'text2',id:2,val:2}];<br/>
 
-          //filter data with val
+      $scope.selectItem = $scope.options[0]<br/>
 
-          $scope.$apply(function(){
+      $scope.changeInputVal = function(val){<br/>
 
-            $scope.options = _filterData;
+          //filter data with val<br/>
 
-          })
+          $scope.$apply(function(){<br/>
 
-      }
+            $scope.options = _filterData;<br/>
 
-      $scope.saveData = function(){
+          })<br/>
 
-        //$scope.selectItem will change when select change
+      }<br/>
 
-      }
+      $scope.saveData = function(){<br/>
 
-    }
+        //$scope.selectItem will change when select change<br/>
+
+      }<br/>
+
+    }<br/>
   ]);
 </div>
