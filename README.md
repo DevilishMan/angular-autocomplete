@@ -16,3 +16,43 @@ autoSelect:The selected item will set to this field.
 autoKey:The option's field that use to display on the input.
 
 autoChange:The changeInputVal Fun will trigger when input value change,and it can use to filter options by input key.
+
+How to use:
+
+1、Add module to app:
+
+<div style="background:#333;color:#fff;line-height:32px;">
+  angular.module('app', ['ng.autocomplete']);
+</div>
+
+angular controller:
+<div style="border:1px solid #333;">
+  app.controller('MainCtrl', ['$scope',
+
+    function ($scope) {
+
+      $scope.options = [{text:'text1',id:1,val:1},{text:'text2',id:2,val:2}];
+
+      $scope.selectItem = $scope.options[0]
+
+      $scope.changeInputVal = function(val){
+
+          //filter data with val
+
+          $scope.$apply(function(){
+
+            $scope.options = _filterData;
+
+          })
+
+      }
+
+      $scope.saveData = function(){
+
+        //$scope.selectItem will change when select change
+
+      }
+
+    }
+  ]);
+</div>
